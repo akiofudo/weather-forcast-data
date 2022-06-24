@@ -1,2 +1,2 @@
 # grocery-shope-project
-project done with html, css, javascript and php
+it is a simple e-commerce project done with html, css, javascript and php
