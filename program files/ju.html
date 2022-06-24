@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mizuki mise-juice</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">   
+    <style>
+     body{
+        font-family:"Reggae one";
+    
+     }
+
+     @media(min-width:698px){
+
+     #quantity{
+         text-align: center;
+         width: 40px;
+         height: 5px;
+         font: size 10px;
+         padding:10px;
+
+     }
+     #b1{
+         width: 100px;
+         height: 20px;
+         font: size 20px;
+         padding:20px;
+         font-weight:bold;
+         background-color: green;
+         color: white;
+
+
+     }
+     .container{
+         text-align: center;
+         background-color: black;
+         color: white;
+
+     }
+     .cart a:link, a:visited{
+        background-color:darkblue;
+        color: white;
+        padding: 25px;
+        padding-left: 20px;
+        text-align: right;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration:none;
+        border: black;
+        display: inline-block;
+     }
+     .cart a:hover, a:active{
+        background-color: yellow;
+        color: black;
+     }
+ 
+     .containerju{ 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        padding-bottom: 100px;
+     }
+     .containerju div{
+        background-color:white ;
+        padding: 20px;
+        border: 5px black solid;
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight:bold;  
+     }
+     .juice{
+        margin-right: 10px;
+        margin-left: 20px;
+        position: relative;
+        overflow: hidden;
+     }
+
+     
+ 
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="c1">
+    <h1>juices</h1>
+    </div>
+    </div>
+
+    <div class="cart">
+    <a  href="cart.php">Mycart<span style="color: red;"> 0</span></a>
+    </div>
+
+    <br>
+
+  <div class="containerju">
+
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+        
+        <img src="apple juice.jpg"  width=" 273" height="183" alt="apple juice">
+        <h2>apple juice</h2>
+        <span>&#8360; 60</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+        
+        <img src="avacado juice.jpg"  width=" 273" height="183" alt="avocado juice">
+        <br>
+        <h2>avocado juice</h2>
+        <span>&#8360; 120</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+        
+        <img src="badam milk.jpg"  width=" 273" height="183" alt="badam milk">
+        <br>
+        <h2>badam milk</h2>
+        <span>&#8360; 20</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+    <br>
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+        
+        <img src="bananajuice.jpg"  width=" 273" height="183" alt="banana juice">
+        <br>
+        <h2>banana juice</h2>
+        <span>&#8360; 40</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+        
+        <img src="grape juice.jpg"  width=" 273" height="183" alt="grape juice">
+        <br>
+        <h2>grape juice</h2>
+        <span>&#8360; 50</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+        
+        <img src="lemonjuice.jpg"  width=" 273" height="183" alt="lemon juice">
+        <br>
+        <h2>lemon juice</h2>
+        <span>&#8360; 10</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+    <br>
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+            
+        <img src="mangojuice.jpg"  width=" 273" height="183" alt="mangojuice">
+        <br>
+        <h2>mangojuice</h2>
+        <span>&#8360; 30</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>        
+    </div>
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+            
+        <img src="orangejuice.jpg"  width=" 273" height="183" alt="orangejuice">
+        <br>
+        <h2>orangejuice</h2>
+        <span>&#8360; 30</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+            
+        <img src="pineapple juice.jpg"  width=" 273" height="183" alt="pineapplejuice">
+        <br>
+        <h2>pineapple juice</h2>
+        <span>&#8360; 70</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>        
+    </div>
+        <br>
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+            
+        <img src="promoJuice.jpg"  width=" 273" height="183" alt="promegranate juice">
+        <br>
+        <h2>promegranate juice</h2>
+        <span>&#8360; 60</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a> 
+    </div>
+
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+            
+        <img src="rose-milk.jpg"  width=" 273" height="183" alt="rose-milk">
+        <br>
+        <h2>rose milk</h2>
+        <span>&#8360; 20</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+    <div class="juice" data-aos="fade-up" data-aos-duration="2000">
+            
+        <img src="strawberry juice.jpg"  width=" 273" height="183" alt="strawberry juice">
+        <br>
+        <h2>strawberry juice</h2>
+        <span>&#8360; 80</span>
+        <a  class="addcart" href="#"><input type="button" id="b1" value="Add to cart"></a>
+    </div>
+  </div>
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script src="./main3.js"></script>
+
+    
+    <script>
+     AOS.init();
+    </script>
+</body>
+</html>

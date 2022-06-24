@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mizuki mise</title>
+    <link rel="stylesheet" href="logstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <script src="./log.js"></script>
+    <style>
+        body{
+
+            font-family: "Reggae one";
+        }
+    </style>
+    
+</head>
+
+<body>
+    <section>
+    <div class="containerlog">
+
+        <form name="form1" onsubmit="return logfun()" method="POST" action="login.php"  >
+            <h1>login form</h1>
+            <div class="log">
+            <label>Email</label>
+            <input type="email" name="email" placeholder=" email id" style="font-family: Reggae one;" >
+            </div>
+            
+            <div class="log">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="password" style="font-family: Reggae one;">
+            </div>
+
+            <span><input type="checkbox">Remember me</span>
+
+            <div id="errormess" style="color: red; text-align: center; text-transform:uppercase; "></div>
+
+           <div class="log">
+            <a href="home2new.html"><input type="submit" name="submit" value="log in" style="font-family: Reggae one;" ></a>
+            </div>
+
+           <span>OR</span>
+          
+            <div class="log">
+            <input type="button" name="but1" value="sign in" style="font-family: Reggae one;" onclick="window.location.href='sign.html'">
+            </div>
+            
+
+           <div class="link">
+            <a href="for.php" style="font-family: Reggae one;">Forgot password ?</a>
+            </div>
+
+        </form>
+    </div>
+    </section>
+    
+</body>
+</html>

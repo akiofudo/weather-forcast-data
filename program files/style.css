@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Reggae+One&display=swap');
+body{
+background-color:white;
+border-radius: 2px;
+border: black;
+font-family: 'Reggae One';
+}
+
+section{
+    background: white;
+}
+.c1{
+ text-align: center;
+ user-select: none;
+ margin-left:20px;
+
+ font-weight:bold;
+ font-style: italic;
+ 
+}
+
+
+.sidebar{
+    position: fixed;
+    top: 40px;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: black;
+    transition: all .5s ease;
+}
+.sidebar header{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: darkblue;
+    user-select: none;
+}
+.sidebar ul a{
+    text-decoration:none;
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(225,225,225,.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+
+}
+
+ul li:hover a{
+    padding-left: 50px;
+
+}
+.sidebar ul a i{
+    margin-right: 16px;
+}
+#check{
+    display: none;
+}
+label #btn,label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: black;
+    border-radius: 3px;
+
+} 
+label #btn{
+    left:40px;
+    top:25px;
+    font-size: 20px;
+    color: white;
+    padding: 6px 6px;
+    transition: all .5s;
+
+}
+label #cancel{
+    z-index: 1111;
+    left: -200px;
+    top:17px;
+    font-size: 20px;
+    color: green;
+    padding: 4px 9px;
+    transition: all .5s ease;
+
+}
+#check:checked ~.sidebar{
+    left: 0;
+}
+#check:checked ~label #btn{
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~label #cancel{
+    left: 230px;
+}
+
+.c2{
+    margin-right:250px;
+}
+
+.c2 input[type="submit"]{
+    
+    font-weight:bold;
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 12px;
+}
+
+.c3{
+padding: 14px 16px;
+font-weight:bold;
+font-style: italic;
+overflow: hidden;
+color: #f2f2f2;
+font-size: 20px;
+text-align: center;
+
+
+}  
+.c3 .navbar a{
+    padding: 20px;
+    text-decoration:none;
+    padding: 5px;
+    padding: left 16px;
+    background-color: black;
+    color: white;
+
+
+}
+.c3 .navbar a:hover{
+    color:black;
+    background-color:white;
+    padding: 20px;
+
+}
+.c3 a.active{
+    background-color:green;
+    color: white;
+}
+footer{
+    background-color: white;
+}
+.footimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.address{
+    font-size: 3vw;
+    font-weight: 400;
+    font-style: bold;
+    display: block;
+    text-align: center;
+
+}
+.containfoot{
+    background-color:green;
+}
+.designer{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 222;
+    font-style: bold;
+}
+@media(min-width:468px) {
+
+.container{
+    background-color:black;
+    border-radius: 5px;
+    border-color: black;
+
+}   
+.container3{
+    display:flex;
+    width: auto;
+    justify-content:space-around;
+    padding-bottom: 10px;
+}
+
+.container4{
+    display:flex;
+    width: auto;
+    justify-content:space-around;
+
+}
+.container5{
+    display:flex;
+    width: auto;
+    justify-content:space-around;
+
+}
+.container6{
+    display:flex;
+    width: auto;
+    justify-content:space-around;
+
+}
+.container7{
+    display:flex;
+    width: auto;
+    justify-content:space-around;
+
+}
+.container4 div{
+    background-color:white ;
+    padding: 20px;
+    border: 10px black solid;
+    font-weight:bold;
+    font-style: italic;
+    border-radius: 5px;
+
+    font-size: 30px;
+
+}
+.container3 div {
+    border-radius: 5px;
+
+    background-color:white ;
+    padding: 20px;
+    border: 10px black solid;
+    font-weight:bold;
+    font-style: italic;
+    
+    font-size: 30px;
+    
+}
+.container5 div {
+    background-color:white ;
+    padding: 20px;
+    border: 10px black solid;
+    font-weight:bold;
+    font-style: italic;
+    border-radius: 5px;
+
+    font-size: 30px;
+    
+}
+.container6 div {
+    background-color:white ;
+    padding: 20px;
+    border: 10px black solid;
+    font-weight:bold;
+    font-style: italic;
+    border-radius: 5px;
+
+    font-size: 30px;
+    
+}
+.container7 div {
+    background-color:white ;
+    padding: 20px;
+    border: 10px black solid;
+    font-weight:bold;
+    font-style: italic;
+    border-radius: 5px;
+
+    font-size: 30px;
+    
+}
+
+
+.container3 input[type="button"]{
+    
+    font-weight:bold;
+    font-style: italic;
+    background-color: green;
+    font-family: 'Reggae One';
+    font-size: 20px;
+
+
+}
+.container4 input[type="button"]{
+   
+    font-weight:bold;
+    font-style: italic;
+    background-color: green;
+    font-family: 'Reggae One';
+    font-size: 20px;
+}
+.container5 input[type="button"]{
+    
+    font-weight:bold;
+    font-style: italic;
+    background-color: green;
+    font-family: 'Reggae One';
+    font-size: 20px;
+}
+.container6 input[type="button"]{
+   
+    font-weight:bold;
+    font-style: italic;
+    background-color: green;
+    font-family: 'Reggae One';
+    font-size: 20px;
+}
+.container7 input[type="button"]{
+    
+    font-weight:bold;
+    font-style: italic;
+    background-color: green;
+    font-family: 'Reggae One';
+    font-size: 20px;
+}
+}
