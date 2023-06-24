@@ -1,4 +1,4 @@
-# weather-forcast-data
+# weather-forecast-data
 project done with full and fully with python
 The main objective of this project is  to develop a 
 GUI application that allows users to enter the name of a city and fetches weather data from a weather API based on that input.
