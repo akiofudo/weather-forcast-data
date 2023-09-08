@@ -1,11 +1,10 @@
 # weather-forecast-data
-project done with full and fully with python
-The main objective of this project is  to develop a 
-GUI application that allows users to enter the name of a city and fetches weather data from a weather API based on that input.
-our application will retrieve the current weather information for the specified city and display it within the GUI interface. 
-The goal is to provide a user-friendly experience by combining the convenience of a graphical interface with real-time weather data obtained from an API source.
+The main goal of this project is to create a GUI application that allows users to enter the name of a city and, depending on that input, retrieves weather information from a weather API.
+In the GUI interface, our program will present the most recent weather data for the given city. 
+By combining the ease of a graphical interface with real-time weather information collected from an API source, the aim is to deliver a user-friendly experience
 
-JUST RUN AND SEE THE main.PY FILE
+Simply run and look at the gui.PY FILE
+
 HAPPY CODING............
 
 
